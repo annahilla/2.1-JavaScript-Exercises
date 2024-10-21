@@ -25,3 +25,13 @@ const asyncFunction = async () => {
     const result = await promiseWithReject("Hola");
     console.log(result);
 };
+
+// Nivell 2
+const asyncFunctionWithTryCatch = async () => {
+    try {
+        const result = await promiseWithReject("Hola");
+        console.log(result);
+    } catch(error) {
+        console.log(error);
+    };
+};

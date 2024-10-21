@@ -9,3 +9,9 @@ const firstNumberGreaterThanTen = array2.find(num => num > 10);
 
 const array3 = [13, 7, 8, 21];
 const sum = array3.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+
+// Nivell 2
+const array4 = [ 1, 3, 7, 10 ,15, 17, 11, 5, 8, 12, 9 ];
+const arrayFunction = () => {
+    return array4.filter(num => num >= 10).map(num => num * 2).reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+};
