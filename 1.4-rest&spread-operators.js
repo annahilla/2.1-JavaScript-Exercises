@@ -23,3 +23,22 @@ console.log(objecte2);
 
 const array4 = [1, 2, 3, 4, 5, 6, 7];
 let [y, x, ...rest] = array4;
+
+// Nivell 3
+const arrayFunction  = (a, b, c) => {
+    console.log(a,b,c);
+};
+const array = [1, 2, 3];
+arrayFunction(...array);
+
+const objecte3 = {
+    propietat1: 1,
+    propietat2: 2
+};
+
+const objecte4 = {
+    propietat3: 3,
+    propietat4: 4
+};
+
+const objecte5 = {...objecte3, ...objecte4};

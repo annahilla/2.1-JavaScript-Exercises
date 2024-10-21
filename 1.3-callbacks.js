@@ -18,3 +18,9 @@ const esperarISaludar  = (nom, callbackFunction) => {
 const processarElements = (array, callbackFunction) => {
     array.forEach(item => callbackFunction(item));
 };
+
+// Nivell 3
+const processarCadena = (string, callbackFunction) => {
+    const uppercaseString = string.toUpperCase();
+    callbackFunction(uppercaseString);
+};

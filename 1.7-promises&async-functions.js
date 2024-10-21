@@ -35,3 +35,20 @@ const asyncFunctionWithTryCatch = async () => {
         console.log(error);
     };
 };
+
+// Nivell 3
+let promise1 = new Promise((resolve) => {
+    setTimeout(() => {
+        resolve('Promise solved after 2 seconds')
+    }, 2000);
+});
+
+let promise2 = new Promise((resolve) => {
+    setTimeout(() => {
+        resolve('Promise solved after 3 seconds')
+    }, 3000);
+});
+
+Promise.all([promise1, promise2]).then((values) => {
+    console.log(values);
+});

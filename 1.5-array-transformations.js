@@ -15,3 +15,9 @@ const array4 = [ 1, 3, 7, 10 ,15, 17, 11, 5, 8, 12, 9 ];
 const arrayFunction = () => {
     return array4.filter(num => num >= 10).map(num => num * 2).reduce((accumulator, currentValue) => accumulator + currentValue, 0);
 };
+
+// Nivell 3
+const array5 = [11, 12, 13, 14];
+const isGreaterThanTen = (item) => item > 10;
+console.log(array5.every(isGreaterThanTen));
+console.log(array5.some(isGreaterThanTen));

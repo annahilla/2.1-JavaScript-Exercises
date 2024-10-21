@@ -23,3 +23,8 @@ for(const num of numeros) {
     };
     console.log(num);
 };
+
+// Nivell 3
+for(const nom of noms) {
+    console.log(`${nom}, index: ${noms.indexOf(nom)}`);
+};

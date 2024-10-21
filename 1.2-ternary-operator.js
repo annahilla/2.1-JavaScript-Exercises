@@ -17,3 +17,11 @@ const trobarMaxim = (a, b, c) => {
         ? (a > c ? a : c)
         : (b > c ? b : c);
 };
+
+// Nivell 3
+const parOImpar  = (array) => {
+    for (let i = 0; i < array.length ; i++) {
+        let resultat = array[i] % 2 === 0 ? 'parell' : 'imparell';
+        console.log(resultat);
+    };
+};
