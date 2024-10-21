@@ -11,6 +11,9 @@ const suma = (...args) => {
     return total;
 };
 
+suma(1, 2, 3);
+console.log(suma(1, 2, 3));
+
 // Nivell 2
 const objecte1 = {
     propietat1: 1,
@@ -23,6 +26,10 @@ console.log(objecte2);
 
 const array4 = [1, 2, 3, 4, 5, 6, 7];
 let [y, x, ...rest] = array4;
+
+console.log(y);
+console.log(x);
+console.log(rest);
 
 // Nivell 3
 const arrayFunction  = (a, b, c) => {
@@ -42,3 +49,4 @@ const objecte4 = {
 };
 
 const objecte5 = {...objecte3, ...objecte4};
+console.log(objecte5);

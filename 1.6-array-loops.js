@@ -10,9 +10,10 @@ for (const nom of noms) {
 
 let numeros = [1, 2, 3, 4, 5, 6];
 let numerosParells = numeros.filter(num => num % 2 === 0);
+console.log(numerosParells);
 
 // Nivell 2
-let obj = { nom: Ona, edat: 25, ciutat: 'Barcelona' };
+let obj = { nom: 'Ona', edat: 25, ciutat: 'Barcelona' };
 for(const property in obj) {
     console.log(`${property} : ${obj[property]}`);
 };

@@ -3,7 +3,12 @@ const add = (a, b) => {
     return a + b;
 };
 
+add(2, 3);
+console.log(add(2, 3));
+
 const randomNumber = () => Math.floor(Math.random() * 101);
+randomNumber();
+console.log(randomNumber());
 
 class Person {
     constructor(name) {
@@ -19,6 +24,8 @@ const printNumbers = (array) => {
         console.log(array[i]);
     };
 };
+
+printNumbers([1, 2, 3, 4]);
 
 // Nivell 3
 setTimeout(() => {

@@ -21,6 +21,8 @@ const promiseWithReject = (input) => {
     });
 };
 
+promiseWithReject("Hola");
+
 const asyncFunction = async () => {
     const result = await promiseWithReject("Hola");
     console.log(result);
